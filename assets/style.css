@@ -4,10 +4,20 @@ header {
     align-items: center;
     padding: 1%;
 }
+
 nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
     min-width: 500px;
+}
+body {
+    text-align: center;
+}
+
+.contactMe ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
