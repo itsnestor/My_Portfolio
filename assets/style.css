@@ -6,7 +6,8 @@ header {
 }
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
+    list-style-type: none;
+    min-width: 500px;
 }
