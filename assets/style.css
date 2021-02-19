@@ -1,8 +1,14 @@
+.root {
+    
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    background-color:;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 nav ul {
@@ -13,11 +19,24 @@ nav ul {
     min-width: 500px;
 }
 body {
-    text-align: center;
+    margin: 0;
+    text-align: center;    
+    background-color:;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .contactMe ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+}
+
+footer {
+    background-color:;
+    padding-top: .5%;
+    padding-bottom: .5%;
 }
