@@ -7,5 +7,6 @@ I have currently attempted to use the knowledge I have learn throughout the cour
 This initial layout for the page has the information center aligned. I personally feel it looks simple, clean, and straightforward. I plan on to continuously update this page and apply any different skills to make it work and look better.
 
 ![websitePicture](images/screenshot.PNG)
+![websitePicture2](images/screenshot2.PNG)
 
 ### [Here is a link to the working website!](https://itsnestor.github.io/My_Portfolio/)
