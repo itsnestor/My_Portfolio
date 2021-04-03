@@ -4,10 +4,122 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css">
   <link rel="stylesheet" href="assets/style.css" />
   <title>Portfolio</title>
 </head>
 
+<section class = "hero is-info level">
+    <div class = "hero-body" id = "heading">
+        <p class = "title level-left">
+            My Portfolio
+        </p>
+    </div>
+    <nav class="navbar subtitle" role="navigation" aria-label="main navigation">
+        <div class = "navbar-menu">
+            <div class = "navbar-start">
+                <a href = "#leftColumn" class = "navbar-item">Home</a>
+                <a href = "#aboutMe" class = "navbar-item">About Me</a>
+                <a href = "#projectTitle" class = "navbar-item">Projects</a>
+                <a href = "#contactMe" class = "navbar-item">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<body>
+    <div class = "columns">
+        <!--picutre about me-->
+        <div class = "column is-one-third" id = "leftColumn">
+            <p class = "title level-item has-text-centered">Nestor Campaner</p>
+            <p class = "subtitle level-item has-text-centered">Web Developer</p>
+            <figure class = "image is-square">
+                <img src = "images/myPicture.PNG">
+            </figure>
+            <p class = "title level-item has-text-centered" id = "aboutMe">About Me</p>
+            <p class = "subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut nibh laoreet, malesuada nisi ut, facilisis neque. 
+                Fusce vitae nisl eu neque mollis vulputate. Curabitur lacinia eu diam non bibendum. Sed nisl nisi, posuere ut eros et, condimentum tempus 
+                velit. Donec aliquet faucibus nunc, eget dictum turpis bibendum sed. Morbi bibendum ipsum nisl, ultricies sollicitudin erat condimentum ac. 
+                Ut sit amet vehicula nunc. Etiam iaculis ac elit nec lacinia. In hac habitasse platea dictumst. Praesent eget mattis lectus, quis aliquam 
+                leo. Nunc malesuada, ante non vestibulum mattis, nulla ante facilisis justo, quis facilisis ligula justo sed metus. Mauris nec ligula 
+                pretium, venenatis mauris eu, condimentum sapien. Cras in vulputate ligula.</p>
+        </div>
+        <!--projects-->
+        <div class = "column is-two-thirds">
+            <div class = "tile is-ancestor">
+                <div class = "tile is-12" id = "projectTitle">
+                    <section class = "tile is-child notification is-info">
+                        <p class = "tile title level-item has-text-centered">Projects</p>
+                    </section>
+                </div>
+            </div>
+            <div class = "tile is-ancestor">
+                <div class = "tile is-vertical is-12">
+                    <div class = "tile">
+                        <div class = "tile is-parent is-vertical">
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/itsnestor/Code-Refactor" class = "tile subtitle">Code Refactor</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/codeRefactor.png">
+                                </figure>
+                            </section>
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/itsnestor/Code.Quiz" class = "tile subtitle">Code Quiz</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/codeQuiz.PNG">
+                                </figure>
+                            </section>
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/itsnestor/Weather_Dashboard" class = "tile subtitle">Weather Dashboard</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/weatherDashboard.png">
+                                </figure>
+                            </section>
+                        </div>
+                        <div class = "tile is-parent is-vertical">
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/itsnestor/Password.Generator" class = "tile subtitle">Password Generator</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/pwGenerator.png">
+                                </figure>
+                            </section>
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/itsnestor/Work.Day.Scheduler" class = "tile subtitle">Work Day Scheduler</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/workDayScheduler.gif">
+                                </figure>
+                            </section>
+                            <section class = "tile is-child notification is-info">
+                                <a href = "https://github.com/thebadams/music-project" class = "tile subtitle">Music Enthusiast Haven</a>
+                                <figure class = "image is-5by4">
+                                    <img src = "images/musicProject.PNG">
+                                </figure>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class = "footer level is-info" id = "contactMe">
+    <div class = "level-item has-text-centered">
+        <p class = "subtitle" id = "contactInfo">nestor.dejoya.campaner@gmail.com</p>
+    </div>
+    <div class = "level-item has-text-centered">
+        <a href = "assets/Campaner, Nestor Resume.docx" class = "subtitle" id = "contactInfo">Resume</a>
+    </div>
+    <div class = "level-item has-text-centered">
+        <a href = "https://github.com/itsnestor" class = "subtitle" id = "contactInfo">Github</a>
+    </div>
+    <div class = "level-item has-text-centered">
+        <a href = "https://www.linkedin.com/in/nestor-campaner-136350117/" class = "subtitle" id = "contactInfo">LinkedIn</a>
+    </div>
+</footer>
+
+</html>
+<!-- previous portfolio
 <body>
     <header>
         <h1>Portfolio</h1>
@@ -74,5 +186,4 @@
         </ul>
     </section>
 </footer>
-
-</html>
+-->

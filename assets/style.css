@@ -1,3 +1,30 @@
+#leftColumn {
+    padding-left: 2%; 
+}
+
+#projectTitle {
+    padding-left: .8%;
+}
+
+#heading {
+    padding-bottom: 0%;
+}
+
+#contactInfo {
+    color: white;
+}
+
+#contactMe {
+    background-color: hsl(207, 61%, 53%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#aboutMe {
+    padding-top: 3%;
+}
+
+/* old css
 :root {
     --dark: black;
     --light: white;
@@ -58,3 +85,4 @@ footer {
 
 @media screen and (max-width: 576px) {
 }
+*/
